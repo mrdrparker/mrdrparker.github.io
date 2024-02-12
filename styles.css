@@ -6,10 +6,6 @@
     fix grid positioning
 */
 
-* {
-    border: 1px solid black;
-}
-
 body {
     background-color: #86bbe5;
     font-family: Arial, Helvetica, sans-serif;
