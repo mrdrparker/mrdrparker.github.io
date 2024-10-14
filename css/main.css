@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700");
+
+@media only screen and (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width:1200px) {
+  .grid-container {
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    width: 80%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  margin: 0em;
+  padding: 4em 4em 8em 4em;
+  height: 8em;
+  background-image: url("../images/bb.jpg");
+  text-align: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: #49d5da;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+div {
+  margin: 1em;
+}
+
+body {
+  background: #32fa67;
+  background-image: linear-gradient(135deg, #8b987b, #436585);
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.wrapper {
+  border: 3px 3px 3px #111;
+  margin: 2em auto;
+  padding: 0em;
+  background: #F5F4EE;
+  color: #222244;
+  font-size: 2em;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+hr {
+  border: 1px solid #aaa;
+}
+
+.grid-container {
+  display: grid;
+  padding: 10px;
+  margin: auto;
+}
+
+.grid-item {
+  background-color: white;
+  padding: 20px;
+  margin: 16px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 4em;
+}
