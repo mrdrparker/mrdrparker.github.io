@@ -28,17 +28,17 @@
 
 .hero {
   margin: 0em;
-  padding: 4em 4em 8em 4em;
-  height: 8em;
+  padding: 2em 4em 8em 4em;
+  height: 6em;
   background-image: url("../images/bb.jpg");
   text-align: center;
   justify-content: center;
 }
 
 .hero h1 {
-  color: #49d5da;
+  color: #436585;
   font-size: 3em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 div {
