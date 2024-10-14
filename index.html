@@ -1,60 +1,82 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>markdown</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-<section id="mrdrparkers-blog" class="content">
-<h1>mrdrparker’s blog</h1>
-<figure>
-<img src="a.png" title="Optional title" alt="Alt text" />
-</figure>
-<div class="grid-container">
-<section id="convert-markdown-to-html-with-css-and-toc"
-class="grid-item container">
-<h3>convert markdown to html with css and toc</h3>
-<p>To convert a markdown file to an html file with css and a table of
-contents, use the following command:</p>
-<pre><code>pandoc -s --toc -c file.css file.md -o file.html</code></pre>
-<p>Some other great options for pandoc are as follows:</p>
-<pre><code>-B File # include file before body
+<!doctype html>
+<html lang="en-US">
 
--A File # include file after body
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="mrdrparker" />
+    <meta name="description" content="mrdrparker's web page." />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <title>(=^.^=)</title>
+  </head>
 
--H File # include file at end of header (link a css file maybe)
+  <body>
+    <div class="wrapper">
+      <div class="hero">
+        <h1>mrdrparker</h1>
+      </div>
+      
+      <div>
+        <p>mrdrparker<br>
+          Favorite Media: Ted Lasso, Taskmaster, Critical Role, <br>
+          Favorite Devs: Zachtronics, Double Fine, 2weeks, ConcernedApe, Young Horses, Tantan, System76<br>
+          Favorite Quotes: "Fútbol is life!" - Dani Rojas
+        </p>
+        <hr />
+      </div>
 
---template=file.html # set your own html template (boiler plate?)
+      <div>
+        <h3>Active Quests</h3>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="images/gray.png">
+            <h4>Cryptopals</h4>
+            <p>Challenges 1-3 done in Section 1. Completed in Python. Learning about 90's pop.</p>
+          </div>
+        </div>
+        <hr />
+      </div>
 
--t, -w, --to=, --writ=html5</code></pre>
-</section>
-<section id="update-rustlang-using-rustup" class="grid-item container">
-<h3>update rustlang using rustup</h3>
-<p>To update the rust programming language to it’s latest stable
-release, use the following command:</p>
-<pre><code>rustup update stable</code></pre>
-</section>
-</div>
-</section>
-</body>
+      <div>
+        <h3>Not Started</h3>
+        <div class="grid-container">
+          <div class="grid-item"><img src="images/gray.png"><h4>Microcorruption</h4><p>Complete the Microcorruption challenges</p></div>
+          <div class="grid-item"><img src="images/gray.png"><h4>Think Python</h4><p>Read and code along to Allen B. Downey's <em>Think Python</em>.</p></div>
+          <div class="grid-item"><img src="images/gray.png"><h4>Fantasy Computers</h4><p>Explore the TIC-80 and PICO-8 computers.</p></div>
+        </div>
+        <hr />
+      </div>
+
+      <div>
+        <h3>Main Quests</h3>
+        <p>Major milestones from my life that deserve a merit badge.</p>
+        <div class="grid-container">
+          <div class="grid-item"><img src="images/coffee.png"><h4>B.S. in Computer Science</h4><p>Graduated from the University of Wyoming in 2022.</p></div>
+          <div class="grid-item"><img src="images/pancakes.png"><h4>UWYO Pi Day Challenge Finalist</h4><p>Participated in Month long math challenge. Top four participants recieved awards, including myself.</p></div>
+          <div class="grid-item"><img src="images/lantern.png"><h4>CrowdStrike Outage</h4><p>July 19<sup>th</sup>, 2024 - Assisted with remediating computers affected with the CrowdStrike Outage.</p></div>
+          <div class="grid-item"><img src="images/drink.png"><h4>UWYO Honorarium</h4><p>Programmed some stuff in Lean. It was wild. And I made $$$ doing it.</p></div>
+        </div>
+        <hr />
+      </div>
+
+      <div>
+        <h3>Side Quests</h3>
+        <p>Other noteworthy life moments that are not necessarily impressive, but I wanted to include anyway.</p>
+        <div class="grid-container">
+          <div class="grid-item"><img src="images/clean.png"><h4>TIS-100 Main Story</h4><p>Completed the TIS-100 campaign.</p></div>
+          <div class="grid-item"><img src="images/cut.png"><h4>Dirt Rally Bests</h4><p>Lots to explore here - achievements unlocked, best times on daily leaderboards, etc.</p></div>
+          <div class="grid-item"><img src="images/ghost.png"><h4>Full Time Employment</h4><p>Started my career in my chosen field of study.</p></div>
+          <div class="grid-item"><img src="images/leaf.png"><h4>Acquired Sombrero</h4><p>Went to restraunt on their final day. Was able to acquire a Sombrero off of the wall.</p></div>
+          <div class="grid-item"><img src="images/fire.png"><h4>Burning Bus</h4><p>My bus caught on fire while traveling to a summer camp. No one was hurt. We watched the bus burn down to its frame. It takes awhile for firefigters to reach a burning bus located deep in mountain roads.</p></div>
+          <div class="grid-item"><img src="images/tent.png"><h4>Burning Bus</h4><p>My bus caught on fire while traveling to a summer camp. No one was hurt. We watched the bus burn down to its frame. It takes awhile for firefigters to reach a burning bus located deep in mountain roads.</p></div>
+          <div class="grid-item"><img src="images/smore.png"><h4>Burning Bus</h4><p>My bus caught on fire while traveling to a summer camp. No one was hurt. We watched the bus burn down to its frame. It takes awhile for firefigters to reach a burning bus located deep in mountain roads.</p></div>
+          <div class="grid-item"><img src="images/list.png"><h4>Burning Bus</h4><p>My bus caught on fire while traveling to a summer camp. No one was hurt. We watched the bus burn down to its frame. It takes awhile for firefigters to reach a burning bus located deep in mountain roads.</p></div>
+
+        </div>
+      </div>
+
+    </div>
+  </body>
+
 </html>
