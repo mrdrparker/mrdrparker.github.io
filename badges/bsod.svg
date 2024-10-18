@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.493065mm"
+   height="16.493088mm"
+   viewBox="0 0 16.493065 16.493088"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(-91.897593,-142.23492)">
+    <g
+       id="g2380"
+       transform="matrix(0.19774727,0,0,0.19774727,78.323042,137.36153)">
+      <circle
+         style="fill:#0078d7;fill-opacity:1;stroke:#f90000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         id="circle2374"
+         cx="110.34837"
+         cy="66.346977"
+         r="36.702389" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.2708px;font-family:'Quicksand Medium';-inkscape-font-specification:'Quicksand Medium, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#1f9759;fill-opacity:1;stroke:#b3b3b3;stroke-width:3.37587;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="109.06644"
+         y="81.409981"
+         id="text2378"><tspan
+           id="tspan2376"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.2708px;font-family:'Quicksand Medium';-inkscape-font-specification:'Quicksand Medium, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.37587;stroke-opacity:1"
+           x="109.06644"
+           y="81.409981">:(</tspan></text>
+    </g>
+  </g>
+</svg>
